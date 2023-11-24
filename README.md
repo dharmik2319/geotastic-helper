@@ -11,7 +11,7 @@ Works in all modes where you are supposed to pinpoint a location on a guess map 
 - Go to your preferred userscript manager's dashboard and choose the option to install a new script (usually indicated by a '+' sign).
 - Choose install from URL and enter
 ```
-https://github.com/dharmik2319/geotastic-helper/raw/master/geotastic-help.user.js
+https://github.com/dharmik2319/geotastic-helper/raw/master/geotastic-helper.user.js
 ```
 and you're good to go.
 
@@ -29,12 +29,13 @@ and you're good to go.
 
 #### 3 - The most useful one; place a marker at the exact coordinates, but this will not be counted as a real marker, so you need to manually place a real marker as close to it as possible in order to finish your guess.
 > Please remember the marker placed by the script will not be considered a "real" one, i.e. the "Finish Guess" button will be greyed out.
+> In the next round, the fake marker will be at the same Cooordinates. You need to press 3 again to update its location.
 
 - You can simply press 1, 2 or 3 to use the script.
 
 ## Acknowledgements
 
-- There is next to none documentation for cheating in Geotastic. The only thing I could find was [this](https://github.com/therealOri/GeoEye) which, not meaning to discredit the author, was very manual. Regardless, it inspired me and gave me the knowledge of the exact API request that I had to intercept. I have also contributed back to it in order to improve it.
+- There is next to none documentation for cheating in Geotastic. The only thing I could find was [this](https://github.com/therealOri/GeoEye), which, not meaning to discredit the author, was very manual. Regardless, it inspired me and gave me the knowledge of the exact API request that I had to intercept. I have also contributed back to it in order to improve it.
 
 - The most major help I got was from [here](https://github.com/0x978/GeoGuessr_Resolver). Though made for Geoguessr, and not Geotastic, a major portion of the code was reused from here with substantial editing, in order to adapt the script to Geotastic.
 
