@@ -11,7 +11,7 @@ Works in all modes where you are supposed to pinpoint a location on a guess map 
 - Go to your preferred userscript manager's dashboard and choose the option to install a new script (usually indicated by a '+' sign).
 - Choose install from URL and enter
 ```
-https://raw.githubusercontent.com/dharmik2319/geotastic-helper/main/geotastic-helper.user.js
+https://github.com/dharmik2319/geotastic-helper/raw/master/geotastic-help.user.js
 ```
 and you're good to go.
 
