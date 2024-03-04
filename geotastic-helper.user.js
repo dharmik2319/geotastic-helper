@@ -4,7 +4,7 @@
 // @grant       none
 // @version     1.0
 // @author      dharmik2319
-// @description Helps you in the game Geotastix
+// @description Helps you in the game Geotastic
 // @run-at      document-start
 // ==/UserScript==
 
