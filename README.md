@@ -21,17 +21,15 @@ and you're good to go.
 
 > Note that this script won't work with flag modes. Yet, at the least.
 
-- After starting the game, you have 3 options:
+- After starting the game, you will notice a marker is placed at a position on the guess map, but the submit button is greyed out. This is because it is what I call a "fake" marker. You simply zoom into the map and place a "real" marker as close to it as possible and submit your guess.
+
+- Except this, you can also:
 
 #### 1 - Simply show the Coordinates of the target location, using the javascript alert() function.
 
 #### 2 - Open the target coordinates in Google Maps in another tab, to cross reference with the guess map.
 
-#### 3 - The most useful one; place a marker at the exact coordinates, but this will not be counted as a real marker, so you need to manually place a real marker as close to it as possible in order to finish your guess.
-> Please remember the marker placed by the script will not be considered a "real" one, i.e. the "Finish Guess" button will be greyed out.
-> In the next round, the fake marker will be at the same Cooordinates. You need to press 3 again to update its location.
-
-- You can simply press 1, 2 or 3 to use the script.
+- You can simply press 1 or 2 to use this functionality.
 
 ## Acknowledgements
 
