@@ -37,8 +37,6 @@ XMLHttpRequest.prototype.open = function(method, url) {
         this.addEventListener('load', function () {
             let interceptedResult = this.responseText
             let parsed = interceptedResult.replace("null","")
-    //        console.log(parsed)
-      //      console.log(url)
             const pattern = /-*\d+\.\d+,-*\d+\.\d+/g;
             let match = parsed.match(pattern)[0];
             let split = match.split(",")
@@ -47,6 +45,7 @@ XMLHttpRequest.prototype.open = function(method, url) {
             let lng = Number.parseFloat(split[1])
             globalCoordinates.lat = lat
             globalCoordinates.lng = lng
+            markers();
         });
     }
     // Call the original open function
@@ -68,9 +67,8 @@ function markers() {
     marker = null
   }
   map = window.myMap
-  optsMarker = {type:"drop",position:new google.maps.LatLng(globalCoordinates.lat,globalCoordinates.lng),clickable:!1,map:map}
+  optsMarker = {type:"drop",position:new google.maps.LatLng(globalCoordinates.lat,globalCoordinates.lng),clickable:!1,map:map,id:"test"}
   marker = new google.maps.Marker(optsMarker)
-//  console.log("marker added")
 
 }
 
@@ -82,12 +80,7 @@ let onKeyDown = (e) => {
     }
     if (e.keyCode === 49) {
 	    alert(`${globalCoordinates.lat}, ${globalCoordinates.lng}`);
-  //    console.log(window.myMap)
-    }
-    if (e.keyCode === 51) {
-      markers()
     }
 }
 document.addEventListener("keydown", onKeyDown);
-
 
