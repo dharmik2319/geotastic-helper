@@ -4,8 +4,10 @@
 // @grant       none
 // @version     1.0
 // @author      dharmik2319
+// @license     GPLv3
 // @description Helps you in the game Geotastic
 // @run-at      document-start
+// @icon        https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://geotastic.de&size=180
 // ==/UserScript==
 
 window.myMap;
