@@ -1,3 +1,7 @@
+# THIS IS THE TESTING BRANCH
+- expect the unexpected.
+- expect unfinished features which may or may not work
+
 # Geotastic Helper
 
 A userscript to ""help"" you win in [Geotastic](https://www.geotastic.net).
