@@ -35,6 +35,11 @@ and you're good to go.
 
 - You can simply press 1 or 2 to use this functionality.
 
+## Contributing
+
+- Help is very much needed in order to implement new features, such as flag mode. For more info, check the [Issues](https://github.com/dharmik2319/geotastic-helper/issues)
+- If you create a pull request, then create a merge request to testing branch first.
+
 ## Acknowledgements
 
 - There is next to none documentation for cheating in Geotastic. The only thing I could find was [this](https://github.com/therealOri/GeoEye), which, not meaning to discredit the author, was very manual. Regardless, it inspired me and gave me the knowledge of the exact API request that I had to intercept. I have also contributed back to it in order to improve it.
