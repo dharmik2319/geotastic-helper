@@ -33,7 +33,7 @@ and you're good to go.
 
 ## Contributing
 
-- Help is very much needed in order to implement new features, such as flag mode. For more info, check the [Issues](https://github.com/dharmik2319/geotastic-helper/issues)
+- Help is very much needed in order to implement new features, such as flag mode. For more info, check the [Issues](https://github.com/dharmik2319/geotastic-helper/issues).
 - If you create a pull request, then create a merge request to testing branch first.
 
 ## Acknowledgements
