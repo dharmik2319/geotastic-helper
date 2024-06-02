@@ -21,7 +21,7 @@ and you're good to go.
 
 > Note that this script won't work with flag modes. Yet, at the least.
 
-- After starting the game, you will notice a marker is placed at a position on the guess map, but the submit button is greyed out. This is because it is what I call a "fake" marker. You simply zoom into the map and place a "real" marker as close to it as possible and submit your guess.
+- After starting the game, you will notice a marker is placed at a position on the guess map, but the submit button is greyed out. This is because it is what I call a "fake" marker. You simply zoom into the map and place a "real" marker as close to it as possible and submit your guess. ***(NOT WORKING AS OF NOW. TO BE FIXED SOON. TILL THEN USE THE BELOW GIVEN METHODS. SEE [#3](https://github.com/dharmik2319/geotastic-helper/issues/3))***
 
 - Except this, you can also:
 
