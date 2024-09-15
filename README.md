@@ -1,3 +1,5 @@
+# Current status
+not functional as of now. check [#3](https://github.com/dharmik2319/geotastic-helper/issues/3) for more. do not open duplicate issues.
 # Geotastic Helper
 
 A userscript to ""help"" you win in [Geotastic](https://www.geotastic.net).
